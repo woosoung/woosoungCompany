@@ -1,0 +1,546 @@
+@charset "UTF-8";
+@media (max-width: 1215px) {
+  .service03 .subBox ul li {
+    padding: 39px 30px;
+  }
+}
+@media (max-width: 991px) {
+  .mainFont01 {
+    font-size: 34px;
+  }
+  .mainFont02 {
+    font-size: 30px;
+  }
+  .mainFont03 {
+    font-size: 30px;
+  }
+  .subTitle01 {
+    font-size: 22px;
+  }
+  .subTitle02 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .bodyFont01 {
+    font-size: 18px;
+  }
+  .bodyFont02 {
+    font-size: 16px;
+  }
+  .onlyMobile {
+    display: block;
+  }
+  .onlyPc {
+    display: none;
+  }
+  header.mobOn {
+    background: #fff;
+  }
+  header > .inner {
+    height: 75px;
+    padding: 0 16px;
+  }
+  header > .inner h1 img {
+    width: 116px;
+  }
+  header > .inner .gnb {
+    position: fixed;
+    right: 0;
+    top: 75px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 12;
+    display: none;
+    overflow-y: auto;
+  }
+  header > .inner .gnb.on {
+    display: block;
+  }
+  header > .inner .gnb.mob > ul {
+    flex-direction: column;
+    padding: 21px 0;
+    gap: 0;
+  }
+  header > .inner .gnb.mob > ul li {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+  }
+  header > .inner .gnb.mob > ul li a {
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.65px;
+  }
+  header > .inner .gnb.mob > ul li a span {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+  }
+  header > .inner .gnb.mob > ul li a.on {
+    border-bottom: 0;
+  }
+  header > .inner .gnb.mob > ul li a.on span {
+    border-bottom: 2px solid #2a7dea;
+  }
+  header > .inner .mBtn {
+    display: block;
+    cursor: pointer;
+  }
+  .main .section01 {
+    padding-top: 52px;
+    padding-bottom: 94px;
+  }
+  .main .section01 .conTop {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 36px;
+  }
+  .main .section01 .conBot img {
+    width: 100%;
+  }
+  .main .section02 {
+    padding: 64px 0;
+  }
+  .main .section02 > div {
+    flex-direction: column;
+  }
+  .main .section02 > div .conLeft h3 {
+    padding-bottom: 10px;
+  }
+  .main .section02 > div .conRight {
+    padding-top: 42px;
+  }
+  .main .section03 {
+    padding-top: 104px;
+    padding-bottom: 104px;
+  }
+  .main .section03 .title {
+    flex-direction: column;
+    margin-bottom: 42px;
+    gap: 10px;
+  }
+  .main .section03 .title h2 span {
+    display: block;
+    font-size: 26px;
+  }
+  .main .section03 .content > div {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 72px;
+  }
+  .main .section03 .content > div .conImg {
+    width: 100%;
+  }
+  .main .section03 .content > div .conImg img {
+    width: 100%;
+  }
+  .main .section03 .content > div .conText {
+    width: 100%;
+  }
+  .main .section03 .content > div .conText dl dt {
+    padding-bottom: 12px;
+  }
+  .main .section03 .content > div .conText dl dt > div {
+    display: inline;
+  }
+  .main .section03 .content > div .conText dl dd > div {
+    display: inline;
+    font-size: 18px;
+  }
+  .main .section04 {
+    overflow: hidden;
+    padding-bottom: 144.5%;
+  }
+  .main .section04 .sectionBg img {
+    width: 100%;
+  }
+  .main .section04 .smartText ul li:first-child {
+    padding: 10px 0 16px;
+  }
+  .main .section04 .smartText ul li:first-child div {
+    font-size: 26px;
+  }
+  .main .section04 .smartText ul li:last-child {
+    margin-top: 38px;
+  }
+  .main .section05 {
+    padding-top: 84px;
+    padding-bottom: 104px;
+  }
+  .main .section05 h2 {
+    font-size: 26px;
+  }
+  .main .section05 .address {
+    padding: 28px 0 32px;
+  }
+  .main .section05 .address li {
+    display: flex;
+  }
+  .main .section05 .address li:last-child {
+    flex-direction: column;
+    margin-top: 14px;
+    gap: 14px;
+  }
+  .main .section05 .address li span {
+    font-size: 16px;
+  }
+  .main .section05 .address li span:last-child {
+    padding-left: 14px;
+  }
+  .main .section05 map > div {
+    padding-bottom: 54.3%;
+  }
+  .service02 .subBox > ul > li {
+    padding: 38px 0;
+  }
+  .service02 .subBox > ul > li > div {
+    gap: 22px;
+    text-align: center;
+  }
+  footer {
+    padding: 40px 0 134px;
+  }
+  footer .footerL .footerTop .footerLogo img {
+    width: 189px;
+  }
+  footer .footerL .footerTop ul {
+    padding: 26px 0;
+  }
+  footer .footerL .footerBot > ul li {
+    padding-bottom: 6px;
+  }
+  footer .footerL .footerBot > ul li.companyCeo {
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+  }
+  footer .footerL .footerBot > ul li:last-child {
+    padding-bottom: 15px;
+  }
+  footer .footerL .footerBot .footerLnb {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  footer .footerL .footerBot .footerLnb ul {
+    gap: 24px;
+  }
+  footer .footerR {
+    margin-top: 36px;
+  }
+  footer .footerR .info li.num {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  footer .footerR .familySite {
+    margin-top: 16px;
+  }
+  .attachmentBg {
+    height: auto;
+    padding-bottom: 54.3%;
+  }
+  .attachmentBg div {
+    background-attachment: local !important;
+  }
+  .service .serviceVisual {
+    padding: 52px 0 104px;
+  }
+  .service .serviceVisual > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 56px;
+  }
+  .service .serviceVisual .serviceVisualBg > div {
+    background: url("../image/service_mvisual.svg") no-repeat;
+    background-size: cover !important;
+  }
+  .service .service01 .subTitle {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 52px;
+  }
+  .service .service01 .subBox > ul > li {
+    border-top: 0;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 64px 0;
+  }
+  .service .service01 .subBox > ul > li:first-child {
+    padding-top: 0;
+  }
+  .service .service01 .subBox > ul > li > div {
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  .service .service01 .subBox > ul > li > div div:first-child {
+    width: 100%;
+  }
+  .service .service01 .subBox > ul > li > div div:first-child img {
+    width: 100%;
+  }
+  .service .service01 .subBox > ul > li > div .textBox li:nth-child(2) {
+    font-size: 22px;
+    padding-bottom: 16px;
+  }
+  .service .service01 .subBox > ul > li > div .textBox li:last-child {
+    font-size: 18px;
+  }
+  .service .service02 {
+    padding: 80px 0 74px;
+  }
+  .service .service02 .subTitle {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 52px;
+  }
+  .service .service02 .subTitle h2 {
+    font-size: 26px;
+  }
+  .service .service02 .subBox > div {
+    padding-bottom: 56px;
+  }
+  .service .service02 .subBox > div .solutionSlide {
+    max-width: none;
+    margin-left: 0;
+  }
+  .service .service02 .subBox > div .solutionSlide .swiper-slide {
+    max-height: 430px;
+    height: auto;
+  }
+  .service .service02 .subBox > div .solutionSlide .swiper-slide .textBox {
+    left: 16px;
+    bottom: 38px;
+    opacity: 0;
+  }
+  .service .service02 .subBox > div .solutionSlide .swiper-slide .textBox dt {
+    padding-bottom: 16px;
+    font-size: 22px;
+    letter-spacing: -0.55px;
+  }
+  .service .service02 .subBox > div .solutionSlide .swiper-slide .textBox dd {
+    letter-spacing: -0.4px;
+  }
+  .service .service02 .subBox > div .solutionSlide .swiper-slide.on {
+    max-width: none !important;
+  }
+  .service .service02 .subBox > div .solutionSlide .swiper-pagination {
+    width: auto;
+    bottom: 0;
+    left: auto;
+    right: 108px;
+    font-size: 18px;
+  }
+  .service .service02 .subBox > div .swiper-navigation {
+    left: auto;
+    right: 0;
+  }
+  .service .service03 {
+    padding: 104px 0;
+  }
+  .service .service03 .subTitle {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 52px;
+  }
+  .service .service03 .subTitle h2 {
+    font-size: 26px;
+  }
+  .service .service03 .subBox ul {
+    grid-template-columns: 1fr;
+    gap: 34px 0;
+  }
+  .service .service03 .subBox ul li {
+    grid-column: auto !important;
+    padding: 35px 30px 82px;
+    height: auto;
+  }
+  .service .service03 .subBox ul li > div:first-child {
+    gap: 19px;
+    font-size: 22px;
+    margin-bottom: 21px;
+  }
+  .service .service03 .subBox ul li > div:first-child::before {
+    width: 30px;
+    height: 22px;
+    background-size: contain;
+  }
+  .service .service03 .subBox ul li > div:last-child span {
+    font-size: 16px;
+  }
+  /*company*/
+  .company .companyVisual > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 52px;
+    gap: 16px;
+    padding-bottom: 56px;
+  }
+  .company .companyVisual > div.companyVisualBg div {
+    background: url("../image/company_mvisual.svg") no-repeat;
+    background-size: cover;
+  }
+  .company .companyTop {
+    margin-top: 74px;
+    margin-bottom: 104px;
+  }
+  .company .companyTop > div {
+    font-size: 18px;
+  }
+  .company .companyTop > div .textEffect {
+    font-size: 22px;
+  }
+  .company .campayBot {
+    padding-bottom: 158px;
+  }
+  .company .campayBot .subTitle {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 52px;
+  }
+  .company .campayBot .subTitle h2 {
+    font-size: 26px;
+  }
+  .company .campayBot .subTitle h2 > div {
+    display: inline;
+  }
+  /* notice */
+  .notice .subBody {
+    margin-bottom: 108px;
+  }
+  .notice .subBody .subTitle h3 {
+    padding: 52px 0 36px;
+    text-align: left;
+  }
+  .notice .subBody .noticeWrap > ul > li a {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 16px 0;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.45px;
+  }
+  .notice .subBody .noticeWrap > ul > li a .date {
+    font-size: 14px;
+    letter-spacing: -0.35px;
+  }
+  .notice.detail .subBody {
+    margin-bottom: 104px;
+  }
+  .notice.detail .subBody .subTitle h3 {
+    padding: 32px 0 33px;
+    text-align: center;
+    position: relative;
+  }
+  .notice.detail .subBody .subTitle h3 .prevBtn {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+  }
+  .notice.detail .subBody .noticeWrap h4 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.45px;
+    padding-bottom: 8px;
+  }
+  .notice.detail .subBody .noticeWrap .date {
+    padding-bottom: 24px;
+    font-size: 14px;
+    letter-spacing: -0.35px;
+  }
+  .notice.detail .subBody .noticeWrap .noticeContent {
+    border-top: 1px solid #565656;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 33px 0;
+  }
+  .notice.detail .subBody .noticeWrap .pageControl {
+    margin-top: 36px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .notice.detail .subBody .noticeWrap .pageControl > div a {
+    gap: 7px;
+    border-radius: 10px;
+    padding: 16px;
+    justify-content: flex-start;
+  }
+  .notice.detail .subBody .noticeWrap .listGo {
+    padding-top: 22px;
+  }
+  /* promotion */
+  .promotion {
+    padding-bottom: 104px;
+  }
+  .promotion .videoBox {
+    padding: 52px 0 36px;
+  }
+  .promotion .videoBox > div > div {
+    padding-bottom: 56.1%;
+    max-width: none;
+    width: 100%;
+  }
+  .promotion .promotionText li {
+    text-align: left;
+  }
+  .promotion .promotionText li:first-child {
+    font-size: 22px;
+    padding-bottom: 26px;
+  }
+  /* 문의하기  */
+  .inquiry {
+    padding-top: 52px;
+    padding-bottom: 104px;
+    flex-direction: column;
+    gap: 36px;
+  }
+  .inquiry .inquiryDesc {
+    width: 100%;
+  }
+  .inquiry .inquiryDesc .subTitle h2 {
+    font-size: 30px;
+  }
+  .inquiry .inquiryDesc .inquiryInfo ul li {
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .inquiry .inquiryDesc .inquiryInfo ul li:last-child {
+    padding-bottom: 0;
+  }
+  .inquiry .inquiryBox {
+    width: 100%;
+  }
+  .inquiry .inquiryBox form ul li:last-child {
+    margin-bottom: 26px;
+  }
+  .inquiry .inquiryBox form ul li input {
+    padding: 0 16px;
+  }
+  .inquiry .inquiryBox form ul li textarea {
+    padding: 14px 16px;
+  }
+  .inquiry .inquiryBox form ul li .agreeBox {
+    padding: 0 16px;
+  }
+  .inquiry .inquiryBox .InquiryBtn {
+    width: 100%;
+  }
+  .pagination {
+    margin-top: 26px;
+  }
+}
+@media (max-width: 768px) {
+  .inner {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  footer .footerL .footerTop ul > li {
+    flex: 1 1;
+  }
+  footer .footerL .footerTop ul > li a {
+    width: 100%;
+  }
+}
