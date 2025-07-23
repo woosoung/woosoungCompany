@@ -1,8 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-import btnIcon from "../image/btn_icon.svg";
-
 export default function Promotion() {
     return (
         <div className="promotion">
