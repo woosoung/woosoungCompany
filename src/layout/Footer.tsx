@@ -34,13 +34,13 @@ export default function Footer() {
                                 </div>
                                 <ul>
                                     <li>
-                                        <a href="" rel="noopener noreferrer" className="btnEffect btnEffectWhite">
+                                        <a href="#none" rel="noopener noreferrer" className="btnEffect btnEffectWhite">
                                             <img src={ios} alt="ios" />
                                             App Store
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" rel="noopener noreferrer" className="btnEffect btnEffectWhite">
+                                        <a href="#none" rel="noopener noreferrer" className="btnEffect btnEffectWhite">
                                             <img src={aos} alt="aos" />
                                             Google Play
                                         </a>
@@ -137,22 +137,22 @@ export default function Footer() {
                             <div className="snsBox w-[218px] mt-[24px]">
                                 <ul className="w-full flex justify-center items-center gap-[16px]">
                                     <li>
-                                        <a href="" rel="noopener noreferrer">
+                                        <a href="#none" rel="noopener noreferrer">
                                             <img src={blog} alt="" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" rel="noopener noreferrer">
+                                        <a href="#none" rel="noopener noreferrer">
                                             <img src={face} alt="" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" rel="noopener noreferrer">
+                                        <a href="#none" rel="noopener noreferrer">
                                             <img src={ins} alt="" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" rel="noopener noreferrer">
+                                        <a href="#none" rel="noopener noreferrer">
                                             <img src={utub} alt="" />
                                         </a>
                                     </li>
