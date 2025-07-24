@@ -191,7 +191,7 @@ export default function Service() {
                             <li className="grid02">
                                 <div>충성 고객 리워드 제공</div>
                                 <div>
-                                    <span>14일 이상 서비스 미이용 고객에게</span>
+                                    <span>14일 이상 서비스 이용 고객에게</span>
                                     <span>맞춤 할인 쿠폰을 자동 전송해요.</span>
                                 </div>
                             </li>
